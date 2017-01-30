@@ -19,7 +19,7 @@ Here are example images before and after preprocessing.
 
 
 ## Model Architecture
-Model architecture were composed like below. Filter of convolution layers used 3 x 3 size and same padding. ReLu activation were applied in each convolution and dense layers, except the last dense layer. 2 x 2 Max pooling was applied after convolution layers, and two dropout layers with 25% data drop out were included to prevent overfitting.
+Model architecture were composed like below. Filter of convolution layers used 3 x 3 size and same padding. ReLu activation were applied in each convolution and dense layers, except the last dense layer. 2 x 2 Max pooling was applied after convolution layers. To prevent overfitting, two dropout layers dropping 25% of data were included.
 
 Layer (type)                    | Output Shape        |  Param count
 --------------------------------|---------------------|--------------
