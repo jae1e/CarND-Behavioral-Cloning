@@ -13,6 +13,7 @@ Preprocessing of the image data was done by the following sequence.
 * Calculated Sobel gradients in X and Y direction, then calculated magnitude of gradients by combining two gradients.
 * Rescaled Sobel gradient images to 1/4 scale both horizontally and vertically.
 * Created binary images by appling minimum and maximum threshold to gradient images.
+
 Here are example images before and after preprocessing.
 ### - Example of Preprocessed images
 
