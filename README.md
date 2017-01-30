@@ -7,13 +7,13 @@ The given track has more left turns than right turns, so I duplicated data to ba
 
 
 ## Preprocessing
-Preprocessing of the image data was done by sequence below.
+Preprocessing of the image data was done by the following sequence.
 * Cropped images to remove upper and lower parts of the images which includes unncessary features such as sky, tree and bumper. 
 * Converted the images from RGB to HSV, and extracted S channel from them.
 * Calculated Sobel gradients in X and Y direction, then calculated magnitude of gradients by combining two gradients.
 * Rescaled Sobel gradient images to 1/4 scale both horizontally and vertically.
 * Created binary images by appling minimum and maximum threshold to gradient images.
-
+Here are example images before and after preprocessing.
 ### - Example of Preprocessed images
 
 
@@ -40,6 +40,6 @@ dense_4 (Dense)                 | (None, 1)           |  33
 I trained data using Adam optimizer, for 10 epochs, with batch size of 64. My model was not that big, so Python generator was not necessary in this case. Each epoch took about 33 seconds for training with GeForce GTX 780. In the last epoch, training loss was 0.0067, validation loss was 0.0090 and validation accuracy was 0.5078.
 
 
-## Simulation
+## Simulation results
 ### - Example of steering angle prediction
 ### - Video of driving
