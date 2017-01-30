@@ -23,9 +23,7 @@ Model architecture were composed like below. Filter of convolution layers used 3
 Layer (type)                    | Output Shape        |  Param count
 --------------------------------|---------------------|--------------
 convolution2d_1 (Convolution2D) | (None, 18, 80, 16)  |  160
---------------------------------|---------------------|--------------
 convolution2d_2 (Convolution2D) | (None, 18, 80, 24)  |  3480
---------------------------------|---------------------|--------------
 convolution2d_3 (Convolution2D) | (None, 18, 80, 32)  |  6944
 --------------------------------|---------------------|--------------
 convolution2d_4 (Convolution2D) | (None, 18, 80, 64)  |  18496
