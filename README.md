@@ -21,7 +21,6 @@ Preprocessing of the image data was done by sequence below.
 Model architecture were composed like below. Filter of convolution layers used 3 x 3 size and same padding. ReLu activation were applied in each convolution and dense layers, except the last dense layer. 2 x 2 Max pooling was applied after convolution layers, and two dropout layers with 25% data drop out were included to prevent overfitting.
 
 Layer (type)                    | Output Shape        |  Param count
---------------------------------|---------------------|--------------
 convolution2d_1 (Convolution2D) | (None, 18, 80, 16)  |  160
 --------------------------------|---------------------|--------------
 convolution2d_2 (Convolution2D) | (None, 18, 80, 24)  |  3480
