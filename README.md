@@ -46,6 +46,6 @@ Here is a table of input images and predicted steering angles. The model is pred
 
 <img src="./prediction.png" width="400">
 
-Here is an autonomous driving video with my model. Enjoy. :)
+Finally, here is the autonomous driving video using my model. Enjoy. :)
 
-[Video on YouTube](https://youtu.be/FiJHgARBb2k)
+###[Video on YouTube](https://youtu.be/FiJHgARBb2k)
