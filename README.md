@@ -15,7 +15,7 @@ Preprocessing of the image data was done by the following sequence.
 * Create binary images by appling minimum and maximum threshold to the gradient images.
 
 Here are example images before and after preprocessing.
-![Preprocessed images](./preprocessing.png =250x)
+![Preprocessed images](./preprocessing.png =250x400)
 
 ## Model Architecture
 Model architecture were composed like below. Filter of convolution layers used 3 x 3 size and same padding. ReLu activation were applied in each convolution and dense layers, except the last dense layer. 2 x 2 Max pooling was applied after convolution layers. To prevent overfitting, two dropout layers dropping 25% of data were included.
