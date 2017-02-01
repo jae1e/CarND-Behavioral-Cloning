@@ -42,8 +42,8 @@ I trained data using for 10 epochs, with batch size of 64. For optimization of t
 
 
 ## Simulation results
-Here is a table of input images and predicted steering angles. Model is predicting 
+Here is a table of input images and predicted steering angles. The model is predicting steering angle well.
 
+<img src="./prediction.png" width="500">
 
-
-### - Video of driving
+Here is an autonomous driving video with my model. Enjoy. :)
