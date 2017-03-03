@@ -17,7 +17,9 @@ Preprocessing of the image data was done by the following sequence.
 
 Here are example images before and after preprocessing.
 
-<img src="./preprocess.png" width="500" align="middle">
+<p align="center">
+  <img src="./preprocess.png" width="500">
+</p>
 
 ## Model Architecture
 Model architecture were composed like below. Filter of convolution layers used 3 x 3 size and same padding. ReLu activation were applied in each convolution and dense layers, except the last dense layer. 2 x 2 Max pooling was applied after convolution layers. To prevent overfitting, two dropout layers dropping 25% of data were included.
@@ -45,7 +47,9 @@ I trained data using for 10 epochs, with batch size of 64. For optimization of t
 ## Simulation results
 Here is a table of input images and predicted steering angles. The model is predicting steering angle well.
 
-<img src="./prediction.png" width="400" align="middle">
+<p align="center">
+  <img src="./prediction.png" width="400" align="middle">
+</p>
 
 Finally, here is the autonomous driving video using my model. Enjoy. :)
 
